@@ -1,0 +1,27 @@
+Tours :
+Class Tours
+{
+    private:
+        const int towerDamage;
+        const int price;
+        bool shooting;
+        struct rangeSpot;
+
+    public:
+        void detect_enemy();
+        void shoot();
+        tours();
+        ~tours();
+}
+
+Enemys :
+class Enemys
+{
+    private:
+        int health;
+}
+
+
+
+Collisions :
+Systeme collisions en cercle uniquement
